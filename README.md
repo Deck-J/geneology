@@ -1,82 +1,86 @@
 # Decker Family Genealogy
 
-This repository contains a genealogical flowchart tracing the Decker family line from Isaac Decker (*1743 - ~1840) to Clifford Decker (1915 - , died in Gainesville, FL), including all known siblings and children along the direct lineage. The chart is generated using [Mermaid.js](https://mermaid-js.github.io/), which GitHub supports natively in Markdown. Data is sourced from the "webGED: DECKER FAMILIES Data Page" and supplemented by web searches, including obituary records.
+This repository contains a genealogical flowchart tracing the Decker family line from Peter Decker (~1710-1716 - ~1775) to Clifford Decker (1915 - , died in Gainesville, FL), including all known siblings and children along the direct lineage. The chart is generated using [Mermaid.js](https://mermaid-js.github.io/), which GitHub supports natively in Markdown. Data is sourced from the "webGED: DECKER FAMILIES Data Page" and supplemented by web searches, including obituary records.
 
 ## Family Line Flowchart
 
-Below is the flowchart showing the descent from Isaac Decker to Clifford Decker. The direct line is highlighted with a thicker border and light purple fill. Each node includes the individual's name, birth/death years, and spouse (for the direct line). Siblings and children are included as branches off their parents. Additional findings, such as Brian Decker (1957 - ), are integrated from external sources.
+Below is the flowchart showing the descent from Peter Decker to Clifford Decker. The direct line is highlighted with a thicker border and light purple fill. Each node includes the individual's name, birth/death years, and spouse (for the direct line). Siblings and children are included as branches off their parents. Additional findings, such as Brian Decker (1957 - ), are integrated from external sources.
 
 
 ```mermaid
 graph TD
-    A["Isaac Decker
+    A["Peter Decker
+~1710-1716 - ~1775
+b. Unknown
+m. Susanna
+~1715 - "]:::direct --> B["Isaac Decker
 *1743 - ~1840
+b. Sussex Co., NJ
 m. Dorcas Chamberlain
-~1750 - "]
-    A:::root
-    A --> B["Ebenezer
+~1750 - "]:::direct
+    B --> C["Ebenezer
 1771 - 1850"]
-    A --> C["John
+    B --> D["John
 1775 - 1854"]
-    A --> D["Eunice
+    B --> E["Eunice
 1777 - >1850"]
-    A --> E["Christopher
+    B --> F["Christopher
 *1780 - "]
-    A --> F["Jacob Decker
+    B --> G["Jacob Decker
 ~1784 - 1835
 m. Elizabeth Irwin
 ~1785 - "]:::direct
-    A --> G["Daniel
+    B --> H["Daniel
 *1787 - 1840"]
 
-    F --> H["Mary M
+    G --> I["Mary M
 1800 - 1889"]
-    F --> I["Robert
+    G --> J["Robert
 1805 - "]
-    F --> J["Daniel Decker
+    G --> K["Daniel Decker
 1808 - 1887
 m. Sara Martin
 *1813 - 1885"]:::direct
-    F --> K["Nancy
+    G --> L["Nancy
 *1809 - "]
-    F --> L["Jacob
+    G --> M["Jacob
 *1809 - "]
-    F --> M["James K
+    G --> N["James K
 *1810 - "]
-    F --> N["John
+    G --> O["John
 1816 - 1860"]
-    F --> O["George
+    G --> P["George
 *1817 - "]
-    F --> P["Isaac
+    G --> Q["Isaac
 *1817 - "]
 
-    J --> Q["Job
+    K --> R["Job
 1837 - 1899"]
-    J --> R["John Decker
+    K --> S["John Decker
 1844 - <1900
 m. Isabella Davis
 1844 - >1920"]:::direct
-    J --> S["James W
+    K --> T["James W
 1843 - 1865"]
-    J --> T["Isaac
+    K --> U["Isaac
 1850 - "]
 
-    R --> U["William Chamberlain Decker
+    S --> V["William Chamberlain Decker
 1865 - 1896
 m. Deborah Henrietta Peer
 1870 - 1938"]:::direct
-    R --> V["David Elmer
+    S --> W["David Elmer
 1870 - 1951"]
 
-    U --> W["John Francis
+    V --> X["John Francis
 1891 - 1955"]
-    U --> X["Clifford J Decker
+    V --> Y["Clifford J Decker
 1896 - ~1970s
 m. Anna Carbaugh
 *1891 - "]:::direct
 
     subgraph Gen6
-        X --> Y["Clifford Decker
+        Y --> Z["Clifford Decker
 1915 - 
 d. Gainesville, FL
 m. Marjorie
@@ -84,11 +88,11 @@ m. Marjorie
     end
 
     subgraph Gen7
-        Y --> Z1["Paul Christian
+        Z --> Z1["Paul Christian
 *1950 - "]
-        Y --> Z2["Clifford John
+        Z --> Z2["Clifford John
 *1950 - "]
-        Y --> Z3["Brian Decker
+        Z --> Z3["Brian Decker
 *1950 - 2023"]
     end
 
@@ -116,6 +120,7 @@ m. Marjorie
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
 ```
+
 
 ## Legend
 - **Blue Nodes**: Root ancestor(s)
