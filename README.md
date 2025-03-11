@@ -4,78 +4,59 @@ This is a generational family tree for the Decker lineage, visualized using Merm
 
 ```mermaid
 graph TD
-    subgraph Gen1
-        A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ]:::root
-        A --> B[Ebenezer<br>1771 - 1850]
-        A --> C[John<br>1775 - 1854]
-        A --> D[Eunice<br>1777 - >1850]
-        A --> E[Christopher<br>*1780 - ]
-        A --> F[Jacob Decker<br>~1784 - 1835<br>m. Elizabeth Irwin<br>~1785 - ]:::direct
-        A --> G[Daniel<br>*1787 - 1840]
-    end
+    A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ] --> B[Ebenezer<br>1771 - 1850]
+    A --> C[John<br>1775 - 1854]
+    A --> D[Eunice<br>1777 - >1850]
+    A --> E[Christopher<br>*1780 - ]
+    A --> F[Jacob Decker<br>~1784 - 1835<br>m. Elizabeth Irwin<br>~1785 - ]:::direct
+    A --> G[Daniel<br>*1787 - 1840]
 
-    subgraph Gen2
-        F --> H[Mary M<br>1800 - 1889]
-        F --> I[Robert<br>1805 - ]
-        F --> J[Daniel Decker<br>1808 - 1887<br>m. Sara Martin<br>*1813 - 1885]:::direct
-        F --> K[Nancy<br>*1809 - ]
-        F --> L[Jacob<br>*1809 - ]
-        F --> M[James K<br>*1810 - ]
-        F --> N[John<br>1816 - 1860]
-        F --> O[George<br>*1817 - ]
-        F --> P[Isaac<br>*1817 - ]
-    end
+    F --> H[Mary M<br>1800 - 1889]
+    F --> I[Robert<br>1805 - ]
+    F --> J[Daniel Decker<br>1808 - 1887<br>m. Sara Martin<br>*1813 - 1885]:::direct
+    F --> K[Nancy<br>*1809 - ]
+    F --> L[Jacob<br>*1809 - ]
+    F --> M[James K<br>*1810 - ]
+    F --> N[John<br>1816 - 1860]
+    F --> O[George<br>*1817 - ]
+    F --> P[Isaac<br>*1817 - ]
 
-    subgraph Gen3
-        J --> Q[Job<br>1837 - 1899]
-        J --> R[John Decker<br>1844 - <1900<br>m. Isabella Davis<br>1844 - >1920]:::direct
-        J --> S[James W<br>1843 - 1865]
-        J --> T[Isaac<br>1850 - ]
-    end
+    J --> Q[Job<br>1837 - 1899]
+    J --> R[John Decker<br>1844 - <1900<br>m. Isabella Davis<br>1844 - >1920]:::direct
+    J --> S[James W<br>1843 - 1865]
+    J --> T[Isaac<br>1850 - ]
 
-    subgraph Gen4
-        R --> U[William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer<br>1870 - 1938]:::direct
-        R --> V[David Elmer<br>1870 - 1951]
-    end
+    R --> U[William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer<br>1870 - 1938]:::direct
+    R --> V[David Elmer<br>1870 - 1951]
 
-    subgraph Gen5
-        U --> W[John Francis<br>1891 - 1955]
-        U --> X[Clifford J Decker<br>1896 - <br>m. Anna Carbaugh<br>*1891 - ]:::direct
-    end
+    U --> W[John Francis<br>1891 - 1955]
+    U --> X[Clifford J Decker<br>1896 - ~1970s<br>m. Anna Carbaugh<br>*1891 - ]:::direct
 
     subgraph Gen6
         X --> Y[Clifford Decker<br>1915 - <br>d. Gainesville, FL<br>m. Marjorie<br>*1919 - ]:::direct
     end
 
     subgraph Gen7
-        Y --> Z3[Brian Decker<br>*1950 - 2023]
         Y --> Z1[Paul Christian<br>*1950 - ]
-    end
-
-    subgraph Gen7
         Y --> Z2[Clifford John<br>*1950 - ]
+        Y --> Z3[Brian Decker<br>*1950 - 2023]
     end
 
     subgraph Gen8
+        Z1 --> AA[Sara<br>*1980 - ]
+        Z1 --> AB[Christin<br>*1983 - ]
+        Z2 --> AC[John<br>*1985 - ]
+        Z2 --> AD[Andrew<br>*1987 - ]
+        Z2 --> AE[Scott<br>*1990 - ]
         Z3 --> AF[Stephen<br>*1982 - ]
         Z3 --> AG[Chrissy<br>*1984 - ]
         Z3 --> AH[Margorie<br>*1986 - ]
         Z3 --> AI[Beth<br>*1989 - ]
-        Z2 --> AC[John<br>*1985 - ]
-        Z2 --> AD[Andrew<br>*1987 - ]
-        Z2 --> AE[Scott<br>*1990 - ]
-        Z2 --> AC[John<br>*1985 - ]
-        Z2 --> AD[Andrew<br>*1987 - ]
-        Z2 --> AE[Scott<br>*1990 - ]
-        Z1 --> AA[Sara<br>*1980 - ]
-        Z1 --> AB[Christin<br>*1983 - ]
-        Y --> Z2[Clifford John<br>*1950 - ]
-        Y --> Z3[Brian<br>*1950 - ]
     end
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
-    classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
-```
+    classDef direct fill:#F39C1
+'''mermaid
 
 ## Legend
 - **Blue Nodes**: Root ancestor(s)
