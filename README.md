@@ -48,8 +48,29 @@ graph TD
     end
 
     subgraph Gen7
-        Y --> Z1[One Son<br>*1950 - ]
-        Y --> Z2[Two Son<br>*1950 - ]
+        Y --> Z3[Brian Decker<br>*1950 - 2023]
+        Y --> Z1[Paul Christian<br>*1950 - ]
+    end
+
+    subgraph Gen7
+        Y --> Z2[Clifford John<br>*1950 - ]
+    end
+
+    subgraph Gen8
+        Z3 --> AF[Stephen<br>*1982 - ]
+        Z3 --> AG[Chrissy<br>*1984 - ]
+        Z3 --> AH[Margorie<br>*1986 - ]
+        Z3 --> AI[Beth<br>*1989 - ]
+        Z2 --> AC[John<br>*1985 - ]
+        Z2 --> AD[Andrew<br>*1987 - ]
+        Z2 --> AE[Scott<br>*1990 - ]
+        Z2 --> AC[John<br>*1985 - ]
+        Z2 --> AD[Andrew<br>*1987 - ]
+        Z2 --> AE[Scott<br>*1990 - ]
+        Z1 --> AA[Sara<br>*1980 - ]
+        Z1 --> AB[Christin<br>*1983 - ]
+        Y --> Z2[Clifford John<br>*1950 - ]
+        Y --> Z3[Brian<br>*1950 - ]
     end
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
