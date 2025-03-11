@@ -9,7 +9,7 @@ Below is the flowchart showing the descent from Isaac Decker to Clifford Decker.
 
 ```mermaid
 graph TD
-    A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ] --> B[Ebenezer<br>1771 - 1850]
+    A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ]:::root --> B[Ebenezer<br>1771 - 1850]
     A --> C[John<br>1775 - 1854]
     A --> D[Eunice<br>1777 - >1850]
     A --> E[Christopher<br>*1780 - ]
@@ -61,7 +61,7 @@ graph TD
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
-````
+```
 
 ## Legend
 - **Blue Nodes**: Root ancestor(s)
