@@ -8,53 +8,19 @@ The Decker family traces its roots back to **John de Decker**, a Dutch statesman
 
 The first confirmed settler in the Decker family line in Deckertown was **Peter Decker (~1710-1775)**, whose descendants played a significant role in the development of **Sussex County, NJ, and later migrated to Pennsylvania and beyond**.
 
-## **Peter Decker (~1710-1775) – Founder of Deckertown**
-- **Born**: Between 1710-1716, possibly in **Ulster County, NY**.
-- **Married**: **Susanna (~1715 - ?)**.
-- **Settled**: **Deckertown (now Sussex, NJ)** in **1732**.
-- **Significance**:
-  - One of the **first European settlers** in the region.
-  - Selected land near a **spring**, possibly near modern **Spring Street or Hamburg Avenue**.
-  - His land holdings were later divided among **his children**, though some property was lost to speculators.
-
-## **Isaac Decker (~1743-1840) – Son of Peter, Landowner in Deckertown**
-- **Born**: Sussex County, NJ.
-- **Died**: Circa 1840 in New Florence, Westmoreland County, PA.
-- **Married**: **Dorcas Chamberlain (~1750 - ?)** on April 12, 1769, in Sussex, NJ.
-- **Children**:
-  - **Jacob Decker (~1784-1835) (m. Elizabeth Irwin)**
-  - **Ebenezer Decker (1771-1850)**
-  - **John Decker (1775-1854)**
-  - **Eunice Decker (1777 - >1850)**
-  - **Christopher Decker (*1780 - ?)**  
-  - **Daniel Decker (*1787-1840)**  
-
-## **Corrected Generational Breakdown with Spouses & Children**
-This is the **corrected and expanded lineage** incorporating **verified historical records**.
-
-1. **Peter Decker (~1710-1775) (m. Susanna)**  
-2. **Isaac Decker (~1743-1840) (m. Dorcas Chamberlain)**  
-3. **Jacob Decker (~1784-1835) (m. Elizabeth Irwin)**  
-4. **Daniel Decker (1808-1887) (m. Sara Martin)**  
-5. **John Decker (1844-<1900) (m. Isabella Davis)**  
-6. **William Chamberlain Decker (1865-1896) (m. Deborah Henrietta Peer)**  
-7. **Clifford J. Decker (1896-~1970s) (m. Anna Carbaugh)**  
-8. **Clifford Decker (1915 - ?, Gainesville, FL) (m. Marjorie)**  
-9. **Paul Christian (*1950 - ?), Clifford John (*1950 - ?), Brian Decker (*1950 - 2023) (Sons of Clifford 1915)**  
-10. **Recent Generations (1980s-1990s): John, Andrew, Scott, Stephen, Chrissy, Margorie, Beth, etc.**  
-
-## **Updated Mermaid.js Genealogy Chart**
+## **Mermaid.js Genealogy Chart**
 ```mermaid
 graph TD
     A["Peter Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Susanna (~1715 - ?)"]:::root 
     A --> B["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown"]:::direct
 
     B --> C["Jacob Decker<br>~1784 - 1835<br>b. Sussex Co., NJ<br>m. Elizabeth Irwin (~1785 - ?)"]:::direct
-    C --> D["Daniel Decker<br>1808 - 1887<br>b. NJ<br>m. Sara Martin (*1813 - 1885)"]:::direct
-    D --> E["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)"]:::direct
+    C --> D["Daniel Decker<br>1808 - 1887<br>b. NJ<br>m. Sara Martin (*1813 - 1885)<br>Buried: West Fairfield Cemetery, PA"]:::direct
+    D --> E["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)<br>Buried: Laurel Hill Furnace Cemetery, PA"]:::direct
     E --> F["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
     F --> G["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
     G --> H["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
+
     H --> I["Paul Christian Decker (*1950 - ?)"]
     H --> J["Clifford John Decker (*1950 - ?)"]
     H --> K["Brian Decker (*1950 - 2023)"]
@@ -66,6 +32,9 @@ graph TD
     K --> P["Chrissy Decker (*1984 - ?)"]
     K --> Q["Margorie Decker (*1986 - ?)"]
     K --> R["Beth Decker (*1989 - ?)"]
+
+    D --> S["Samuel St. Clair Decker<br>1865 - 1930<br>m. Anna Lide Sharp (1866-1946)<br>Buried: Laurel Hill Furnace Cemetery, PA"]
+    S --> T["Harvey Reed Decker<br>1890 - 1922<br>Buried: Laurel Hill Furnace Cemetery, PA"]
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
