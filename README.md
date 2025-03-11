@@ -9,113 +9,53 @@ Below is the flowchart showing the descent from Peter Decker to Clifford Decker.
 
 ```mermaid
 graph TD
-    A["Peter Decker
-~1710-1716 - ~1775
-b. Unknown
-m. Susanna
-~1715 - "]:::direct --> B["Isaac Decker
-*1743 - ~1840
-b. Sussex Co., NJ
-m. Dorcas Chamberlain
-~1750 - "]:::direct
-    B --> C["Ebenezer
-1771 - 1850"]
-    B --> D["John
-1775 - 1854"]
-    B --> E["Eunice
-1777 - >1850"]
-    B --> F["Christopher
-*1780 - "]
-    B --> G["Jacob Decker
-~1784 - 1835
-m. Elizabeth Irwin
-~1785 - "]:::direct
-    B --> H["Daniel
-*1787 - 1840"]
+    A["Peter Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Susanna (~1715 - ?)"]:::root 
+    A --> B["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown"]:::direct
+    A --> C["Levi Decker<br>b. Unknown<br>Fled to Minisink, NY after 1779"]
+    A --> D["Isaiah Decker<br>b. Unknown<br>Roadmaster in Minisink, NY (1789)"]
+    A --> E["Benjamin Decker<br>b. Unknown<br>Settled in Sullivan County, NY"]
+    
+    B --> F["Ebenezer Decker<br>1771 - 1850<br>b. NJ or NY"]
+    B --> G["John Decker<br>1775 - 1854<br>b. Sussex, NJ"]
+    B --> H["Eunice Decker<br>1777 - >1850"]
+    B --> I["Christopher Decker<br>*1780 - ?"]
+    B --> J["Jacob Decker<br>~1784 - 1835<br>b. Sussex Co., NJ<br>m. Elizabeth Irwin (~1785 - ?)"]:::direct
+    B --> K["Daniel Decker<br>*1787 - 1840"]
 
-    G --> I["Mary M
-1800 - 1889"]
-    G --> J["Robert
-1805 - "]
-    G --> K["Daniel Decker
-1808 - 1887
-m. Sara Martin
-*1813 - 1885"]:::direct
-    G --> L["Nancy
-*1809 - "]
-    G --> M["Jacob
-*1809 - "]
-    G --> N["James K
-*1810 - "]
-    G --> O["John
-1816 - 1860"]
-    G --> P["George
-*1817 - "]
-    G --> Q["Isaac
-*1817 - "]
+    J --> L["Mary M Decker<br>1800 - 1889"]
+    J --> M["Robert Decker<br>1805 - ?"]
+    J --> N["Daniel Decker<br>1808 - 1887<br>b. NJ<br>m. Sara Martin (*1813 - 1885)"]:::direct
+    J --> O["Nancy Decker<br>*1809 - ?"]
+    J --> P["Isaac Decker<br>*1817 - ?"]
+    J --> Q["John Decker<br>1816 - 1860"]
+    J --> R["George Decker<br>*1817 - ?"]
 
-    K --> R["Job
-1837 - 1899"]
-    K --> S["John Decker
-1844 - <1900
-m. Isabella Davis
-1844 - >1920"]:::direct
-    K --> T["James W
-1843 - 1865"]
-    K --> U["Isaac
-1850 - "]
+    N --> S["Job Decker<br>1837 - 1899<br>b. Fairfield Twp., PA"]
+    N --> T["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)"]:::direct
+    N --> U["James W Decker<br>1843 - 1865"]
+    N --> V["Isaac Decker<br>1850 - ?"]
 
-    S --> V["William Chamberlain Decker
-1865 - 1896
-m. Deborah Henrietta Peer
-1870 - 1938"]:::direct
-    S --> W["David Elmer
-1870 - 1951"]
+    T --> W["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
+    T --> X["David Elmer Decker<br>1870 - 1951"]
 
-    V --> X["John Francis
-1891 - 1955"]
-    V --> Y["Clifford J Decker
-1896 - ~1970s
-m. Anna Carbaugh
-*1891 - "]:::direct
+    W --> Y["John Francis Decker<br>1891 - 1955"]
+    W --> Z["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
 
-    subgraph Gen6
-        Y --> Z["Clifford Decker
-1915 - 
-d. Gainesville, FL
-m. Marjorie
-*1919 - "]:::direct
-    end
+    Z --> Z1["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
 
-    subgraph Gen7
-        Z --> Z1["Paul Christian
-*1950 - "]
-        Z --> Z2["Clifford John
-*1950 - "]
-        Z --> Z3["Brian Decker
-*1950 - 2023"]
-    end
+    Z1 --> AA["Paul Christian Decker<br>*1950 - ?"]
+    Z1 --> AB["Clifford John Decker<br>*1950 - ?"]
+    Z1 --> AC["Brian Decker<br>*1950 - 2023"]
 
-    subgraph Gen8
-        Z1 --> AA["Sara
-*1980 - "]
-        Z1 --> AB["Christin
-*1983 - "]
-        Z2 --> AC["John
-*1985 - "]
-        Z2 --> AD["Andrew
-*1987 - "]
-        Z2 --> AE["Scott
-*1990 - "]
-        Z3 --> AF["Stephen
-*1982 - "]
-        Z3 --> AG["Chrissy
-*1984 - "]
-        Z3 --> AH["Margorie
-*1986 - "]
-        Z3 --> AI["Beth
-*1989 - "]
-    end
+    AA --> AD["Sara Decker<br>*1980 - ?"]
+    AA --> AE["Christin Decker<br>*1983 - ?"]
+    AB --> AF["John Decker<br>*1985 - ?"]
+    AB --> AG["Andrew Decker<br>*1987 - ?"]
+    AB --> AH["Scott Decker<br>*1990 - ?"]
+    AC --> AI["Stephen Decker<br>*1982 - ?"]
+    AC --> AJ["Chrissy Decker<br>*1984 - ?"]
+    AC --> AK["Margorie Decker<br>*1986 - ?"]
+    AC --> AL["Beth Decker<br>*1989 - ?"]
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
