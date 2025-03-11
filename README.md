@@ -1,8 +1,13 @@
-This is a generational family tree for the Decker lineage, visualized using Mermaid.js.
+# Decker Family Genealogy
 
-## Family Tree Visualization
+This repository contains a genealogical flowchart tracing the Decker family line from Isaac Decker (*1743 - ~1840) to Clifford Decker (1915 - , died in Gainesville, FL), including all known siblings and children along the direct lineage. The chart is generated using [Mermaid.js](https://mermaid-js.github.io/), which GitHub supports natively in Markdown. Data is sourced from the "webGED: DECKER FAMILIES Data Page" and supplemented by web searches, including obituary records.
 
-``mermaid
+## Family Line Flowchart
+
+Below is the flowchart showing the descent from Isaac Decker to Clifford Decker. The direct line is highlighted with a thicker border and light purple fill. Each node includes the individual's name, birth/death years, and spouse (for the direct line). Siblings and children are included as branches off their parents. Additional findings, such as Brian Decker (1957 - ), are integrated from external sources.
+
+````markdown
+```mermaid
 graph TD
     A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ] --> B[Ebenezer<br>1771 - 1850]
     A --> C[John<br>1775 - 1854]
@@ -57,6 +62,7 @@ graph TD
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
 ```
+````
 
 ## Legend
 - **Blue Nodes**: Root ancestor(s)
