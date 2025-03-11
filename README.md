@@ -38,3 +38,21 @@ graph TD
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
+
+
+
+```
+
+##Find a Grave Confirmed Burials
+
+Below are confirmed burials from Find a Grave for individuals appearing in the genealogy chart:
+	•	Daniel Decker (1808-1887)
+	•	Burial: West Fairfield Cemetery, Fairfield Township, Westmoreland County, Pennsylvania, USA
+	•	Isabella Davis Decker (1844-1920)
+	•	Burial: Laurel Hill Furnace Cemetery, Saint Clair Township, Westmoreland County, Pennsylvania, USA
+	•	Samuel St. Clair Decker (1865-1930)
+	•	Burial: Laurel Hill Furnace Cemetery, Saint Clair Township, Westmoreland County, Pennsylvania, USA
+	•	Anna Lide Sharp Decker (1866-1946)
+	•	Burial: Laurel Hill Furnace Cemetery, Saint Clair Township, Westmoreland County, Pennsylvania, USA
+	•	Harvey Reed Decker (1890-1922)
+	•	Burial: Laurel Hill Furnace Cemetery, Saint Clair Township, Westmoreland County, Pennsylvania, USA
