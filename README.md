@@ -2,7 +2,7 @@ This is a generational family tree for the Decker lineage, visualized using Merm
 
 ## Family Tree Visualization
 
-```mermaid
+``mermaid
 graph TD
     A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ] --> B[Ebenezer<br>1771 - 1850]
     A --> C[John<br>1775 - 1854]
@@ -55,8 +55,8 @@ graph TD
     end
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
-    classDef direct fill:#F39C1
-'''mermaid
+    classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
+```
 
 ## Legend
 - **Blue Nodes**: Root ancestor(s)
