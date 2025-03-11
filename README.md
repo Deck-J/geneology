@@ -1,74 +1,66 @@
 # Decker Family Genealogy
 
-This repository contains a genealogical flowchart tracing the Decker family line from Peter Decker (~1710-1716 - ~1775) to Clifford Decker (1915 - , died in Gainesville, FL), including all known siblings and children along the direct lineage. The chart is generated using [Mermaid.js](https://mermaid-js.github.io/), which GitHub supports natively in Markdown. Data is sourced from the "webGED: DECKER FAMILIES Data Page" and supplemented by web searches, including obituary records.
+## Overview
+This document provides a comprehensive genealogy of the Decker family, tracing its roots from **John de Decker**, a Dutch statesman, to **Peter Decker (~1710-1775)**, the founder of Deckertown (now Sussex Borough, NJ), and through subsequent generations. This includes land records, historical migrations, and significant family members.
 
-## Family Line Flowchart
+## **Origins of the Decker Family**
+The Decker family traces its roots back to **John de Decker**, a Dutch statesman who served as a **Counselor of State under Governor Peter Stuyvesant** during the Dutch colonial period. He was instrumental in **negotiating the surrender of New Amsterdam to the English in 1664**, which led to the establishment of British rule in what later became **New York**. After this transition, many Dutch families, including the Deckers, moved inland to areas such as **Esopus (now Kingston, NY)** and later to **Minisink and Deckertown (now Sussex, NJ)**. 
 
-Below is the flowchart showing the descent from Peter Decker to Clifford Decker. The direct line is highlighted with a thicker border and light purple fill. Each node includes the individual's name, birth/death years, and spouse (for the direct line). Siblings and children are included as branches off their parents. Additional findings, such as Brian Decker (1957 - ), are integrated from external sources.
+The first confirmed settler in the Decker family line in Deckertown was **Peter Decker (~1710-1775)**, whose descendants played a significant role in the development of **Sussex County, NJ, and later migrated to Pennsylvania and beyond**.
 
+## **Peter Decker (~1710-1775) – Founder of Deckertown**
+- **Born**: Between 1710-1716, possibly in **Ulster County, NY**.
+- **Married**: **Susanna (~1715 - ?)**.
+- **Settled**: **Deckertown (now Sussex, NJ)** in **1732**.
+- **Significance**:
+  - One of the **first European settlers** in the region.
+  - Selected land near a **spring**, possibly near modern **Spring Street or Hamburg Avenue**.
+  - His land holdings were later divided among **his children**, though some property was lost to speculators.
+  
+## **Isaac Decker (~1743-1840) – Son of Peter, Landowner in Deckertown**
+- **Born**: Sussex County, NJ.
+- **Died**: Circa 1840 in New Florence, Westmoreland County, PA.
+- **Married**: **Dorcas Chamberlain (~1750 - ?)** on April 12, 1769, in Sussex, NJ.
+- **Land Ownership**:
+  - Sold **100 acres near Decker’s Mill Pond in 1761**.
+  - Mentioned in **Deckertown land transactions** (1760s-1780s).
+  - Remained in **Sussex County** while some brothers migrated to NY.
 
+## **Mermaid.js Genealogy Chart**
 ```mermaid
 graph TD
-    A["Peter Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Susanna (~1715 - ?)"]:::root 
-    A --> B["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown"]:::direct
-    A --> C["Levi Decker<br>b. Unknown<br>Fled to Minisink, NY after 1779"]
-    A --> D["Isaiah Decker<br>b. Unknown<br>Roadmaster in Minisink, NY (1789)"]
-    A --> E["Benjamin Decker<br>b. Unknown<br>Settled in Sullivan County, NY"]
+    A["John de Decker<br>Counselor of State under Peter Stuyvesant<br>Negotiated New Amsterdam’s surrender (1664)"]:::root --> B["Early Decker Settlers<br>Moved to Esopus (Kingston, NY) & Minisink"]
+
+    B --> C["Peter Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Susanna (~1715 - ?)"]:::root 
+    C --> D["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown"]:::direct
+    C --> E["Levi Decker<br>b. Unknown<br>Fled to Minisink, NY after 1779"]
+    C --> F["Isaiah Decker<br>b. Unknown<br>Roadmaster in Minisink, NY (1789)"]
+    C --> G["Benjamin Decker<br>b. Unknown<br>Settled in Sullivan County, NY"]
     
-    B --> F["Ebenezer Decker<br>1771 - 1850<br>b. NJ or NY"]
-    B --> G["John Decker<br>1775 - 1854<br>b. Sussex, NJ"]
-    B --> H["Eunice Decker<br>1777 - >1850"]
-    B --> I["Christopher Decker<br>*1780 - ?"]
-    B --> J["Jacob Decker<br>~1784 - 1835<br>b. Sussex Co., NJ<br>m. Elizabeth Irwin (~1785 - ?)"]:::direct
-    B --> K["Daniel Decker<br>*1787 - 1840"]
+    D --> H["Ebenezer Decker<br>1771 - 1850<br>b. NJ or NY"]
+    D --> I["John Decker<br>1775 - 1854<br>b. Sussex, NJ"]
+    D --> J["Eunice Decker<br>1777 - >1850"]
+    D --> K["Christopher Decker<br>*1780 - ?"]
+    D --> L["Jacob Decker<br>~1784 - 1835<br>b. Sussex Co., NJ<br>m. Elizabeth Irwin (~1785 - ?)"]:::direct
+    D --> M["Daniel Decker<br>*1787 - 1840"]
 
-    J --> L["Mary M Decker<br>1800 - 1889"]
-    J --> M["Robert Decker<br>1805 - ?"]
-    J --> N["Daniel Decker<br>1808 - 1887<br>b. NJ<br>m. Sara Martin (*1813 - 1885)"]:::direct
-    J --> O["Nancy Decker<br>*1809 - ?"]
-    J --> P["Isaac Decker<br>*1817 - ?"]
-    J --> Q["John Decker<br>1816 - 1860"]
-    J --> R["George Decker<br>*1817 - ?"]
+    L --> N["Mary M Decker<br>1800 - 1889"]
+    L --> O["Robert Decker<br>1805 - ?"]
+    L --> P["Daniel Decker<br>1808 - 1887<br>b. NJ<br>m. Sara Martin (*1813 - 1885)"]:::direct
+    L --> Q["Nancy Decker<br>*1809 - ?"]
+    L --> R["Isaac Decker<br>*1817 - ?"]
 
-    N --> S["Job Decker<br>1837 - 1899<br>b. Fairfield Twp., PA"]
-    N --> T["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)"]:::direct
-    N --> U["James W Decker<br>1843 - 1865"]
-    N --> V["Isaac Decker<br>1850 - ?"]
+    P --> S["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)"]:::direct
+    P --> T["James W Decker<br>1843 - 1865"]
+    P --> U["Isaac Decker<br>1850 - ?"]
 
-    T --> W["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
-    T --> X["David Elmer Decker<br>1870 - 1951"]
+    S --> V["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
+    S --> W["David Elmer Decker<br>1870 - 1951"]
 
-    W --> Y["John Francis Decker<br>1891 - 1955"]
-    W --> Z["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
+    V --> X["John Francis Decker<br>1891 - 1955"]
+    V --> Y["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
 
-    Z --> Z1["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
-
-    Z1 --> AA["Paul Christian Decker<br>*1950 - ?"]
-    Z1 --> AB["Clifford John Decker<br>*1950 - ?"]
-    Z1 --> AC["Brian Decker<br>*1950 - 2023"]
-
-    AA --> AD["Sara Decker<br>*1980 - ?"]
-    AA --> AE["Christin Decker<br>*1983 - ?"]
-    AB --> AF["John Decker<br>*1985 - ?"]
-    AB --> AG["Andrew Decker<br>*1987 - ?"]
-    AB --> AH["Scott Decker<br>*1990 - ?"]
-    AC --> AI["Stephen Decker<br>*1982 - ?"]
-    AC --> AJ["Chrissy Decker<br>*1984 - ?"]
-    AC --> AK["Margorie Decker<br>*1986 - ?"]
-    AC --> AL["Beth Decker<br>*1989 - ?"]
+    Y --> Z["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
-```
-
-
-## Legend
-- **Blue Nodes**: Root ancestor(s)
-- **Orange Nodes**: Direct lineage
-- **Regular Nodes**: Other family members
-
-### Notes
-- Birth and death years are approximate where indicated with `*` or `~`.
-- Direct ancestors in the primary lineage are highlighted for clarity.
-
-This visualization makes it easy to see connections between generations and identify key family members. Let me know if you need any modifications!
