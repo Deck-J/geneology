@@ -11,36 +11,38 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
 graph TD
-    A["Peter Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Susanna (~1715 - ?)"]:::root 
-    A --> B["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown"]:::direct
+    A["Peter Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Susanna (~1715 - ?)" ]:::root 
+    A --> B["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown" ]:::direct
 
-    B --> C["Ebenezer Decker<br>1765 - ?<br>m. Isabel (? - ?)"]:::direct
-    C --> D["Isaac Decker<br>1794 - 1856<br>m. Barbara Aubert (1791-1863)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/33333214/isaac-decker)"]:::direct
+    B --> C["Ebenezer Decker<br>1765 - ?<br>m. Isabel (? - ?)" ]:::direct
+    C --> D["Isaac Decker<br>1794 - 1856<br>m. Barbara Aubert (1791-1863)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/33333214/isaac-decker)" ]:::direct
 
-    D --> R["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/86567652/isabella-decker)"]:::direct
-    R --> J["Samuel St. Clair Decker<br>1865 - 1930<br>m. Anna Lide Sharp (1866-1946)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/125481647/samuel-st._clair-decker)"]:::direct
-    J --> K["Harvey Reed Decker<br>1890 - 1922<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/85048797/harvey-reed-decker)"]:::direct
-    J --> L["Frank Vincent Decker<br>1909 - 1941<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/125484972/frank-vincent-decker)"]:::direct
+    D --> R["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/86567652/isabella-decker)" ]:::direct
+    R --> J["Samuel St. Clair Decker<br>1865 - 1930<br>m. Anna Lide Sharp (1866-1946)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/125481647/samuel-st._clair-decker)" ]:::direct
+    J --> K["Harvey Reed Decker<br>1890 - 1922<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/85048797/harvey-reed-decker)" ]:::direct
+    J --> L["Frank Vincent Decker<br>1909 - 1941<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/125484972/frank-vincent-decker)" ]:::direct
 
-    C --> Q["Daniel Decker<br>1808 - 1887<br>m. Sara Martin (*1813 - 1885)<br>Buried: West Fairfield Cemetery, PA"]:::direct
-    Q --> S["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/86567652/isabella-decker)"]:::direct
-    S --> T["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
-    T --> U["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
-    U --> V["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
-    V --> W["Paul Christian Decker (*1950 - ?)"]
-    V --> X["Clifford John Decker (*1950 - ?)"]
-    V --> Y["Brian Decker (*1950 - 2023)"]
+    C --> Q["Daniel Decker<br>1808 - 1887<br>m. Sara Martin (*1813 - 1885)<br>Buried: [West Fairfield Cemetery](https://www.findagrave.com/memorial/57753620/daniel-decker)"]:::direct
+    Q --> S["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)<br>Buried: [Laurel Hill Furnace Cemetery](https://www.findagrave.com/memorial/86567652/isabella-decker)" ]:::direct
+    S --> T["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)" ]:::direct
+    T --> U["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)" ]:::direct
+    U --> V["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)" ]:::direct
+    V --> W["Paul Christian Decker (*1950 - ?)" ]
+    V --> X["Clifford John Decker (*1950 - ?)" ]
+    V --> Y["Brian Decker (*1950 - 2023)" ]
 
-    W --> Z["John Decker (*1985 - ?)"]
-    W --> AA["Andrew Decker (*1987 - ?)"]
-    W --> AB["Scott Decker (*1990 - ?)"]
-    Y --> AC["Stephen Decker (*1982 - ?)"]
-    Y --> AD["Chrissy Decker (*1984 - ?)"]
-    Y --> AE["Margorie Decker (*1986 - ?)"]
-    Y --> AF["Beth Decker (*1989 - ?)"]
-    W --> AG["Sarah Decker (*1980 - ?)"]
-    W --> AH["Christin Decker (*1983 - ?)"]
+    W --> Z["John Decker (*1985 - ?)" ]
+    W --> AA["Andrew Decker (*1987 - ?)" ]
+    W --> AB["Scott Decker (*1990 - ?)" ]
+    Y --> AC["Stephen Decker (*1982 - ?)" ]
+    Y --> AD["Chrissy Decker (*1984 - ?)" ]
+    Y --> AE["Margorie Decker (*1986 - ?)" ]
+    Y --> AF["Beth Decker (*1989 - ?)" ]
+    W --> AG["Sarah Decker (*1980 - ?)" ]
+    W --> AH["Christin Decker (*1983 - ?)" ]
 
+    classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
+    classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
 ```
 ## **Find a Grave Confirmed Burials**
 Below are **confirmed burials** from Find a Grave for individuals appearing in the genealogy chart:
