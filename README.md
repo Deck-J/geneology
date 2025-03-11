@@ -26,6 +26,28 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
   - Mentioned in **Deckertown land transactions** (1760s-1780s).
   - Remained in **Sussex County** while some brothers migrated to NY.
 
+## **Later Generations & Migration**
+- Many descendants **migrated westward**, including into **Westmoreland County, PA**, and eventually **Florida**.
+- **Notable land transactions include**:
+  - **Isaac Decker (1794-1856) settling in Westmoreland County, PA**.
+  - **Joseph Decker’s 1790 land sale to Samuel Decker (Deckertown lands).**
+  - **Peter Decker’s 1813 sale to Joseph Sharp (31 acres near Potash Works).**
+  - **Stephen Decker’s Bank Street purchases (from Coykendall estate).**
+
+## **Recent Generations (1980s-1990s)**
+- **Paul Christian Decker (*1950 - ?)**  
+  - **Sara Decker (*1980 - ?)**  
+  - **Christin Decker (*1983 - ?)**  
+- **Clifford John Decker (*1950 - ?)**  
+  - **John Decker (*1985 - ?)**  
+  - **Andrew Decker (*1987 - ?)**  
+  - **Scott Decker (*1990 - ?)**  
+- **Brian Decker (*1950 - 2023)**  
+  - **Stephen Decker (*1982 - ?)**  
+  - **Chrissy Decker (*1984 - ?)**  
+  - **Margorie Decker (*1986 - ?)**  
+  - **Beth Decker (*1989 - ?)**  
+
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
 graph TD
@@ -44,23 +66,28 @@ graph TD
     D --> L["Jacob Decker<br>~1784 - 1835<br>b. Sussex Co., NJ<br>m. Elizabeth Irwin (~1785 - ?)"]:::direct
     D --> M["Daniel Decker<br>*1787 - 1840"]
 
-    L --> N["Mary M Decker<br>1800 - 1889"]
-    L --> O["Robert Decker<br>1805 - ?"]
     L --> P["Daniel Decker<br>1808 - 1887<br>b. NJ<br>m. Sara Martin (*1813 - 1885)"]:::direct
-    L --> Q["Nancy Decker<br>*1809 - ?"]
-    L --> R["Isaac Decker<br>*1817 - ?"]
 
     P --> S["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)"]:::direct
-    P --> T["James W Decker<br>1843 - 1865"]
-    P --> U["Isaac Decker<br>1850 - ?"]
 
     S --> V["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
     S --> W["David Elmer Decker<br>1870 - 1951"]
 
-    V --> X["John Francis Decker<br>1891 - 1955"]
     V --> Y["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
 
     Y --> Z["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
+
+    Z --> Z1["Paul Christian Decker (*1950 - ?)"]
+    Z --> Z2["Clifford John Decker (*1950 - ?)"]
+    Z --> Z3["Brian Decker (*1950 - 2023)"]
+
+    Z2 --> AA["John Decker (*1985 - ?)"]
+    Z2 --> AB["Andrew Decker (*1987 - ?)"]
+    Z2 --> AC["Scott Decker (*1990 - ?)"]
+    Z3 --> AD["Stephen Decker (*1982 - ?)"]
+    Z3 --> AE["Chrissy Decker (*1984 - ?)"]
+    Z3 --> AF["Margorie Decker (*1986 - ?)"]
+    Z3 --> AG["Beth Decker (*1989 - ?)"]
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
