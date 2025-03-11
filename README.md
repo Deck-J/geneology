@@ -6,7 +6,7 @@ This repository contains a genealogical flowchart tracing the Decker family line
 
 Below is the flowchart showing the descent from Isaac Decker to Clifford Decker. The direct line is highlighted with a thicker border and light purple fill. Each node includes the individual's name, birth/death years, and spouse (for the direct line). Siblings and children are included as branches off their parents. Additional findings, such as Brian Decker (1957 - ), are integrated from external sources.
 
-````markdown
+
 ```mermaid
 graph TD
     A[Isaac Decker<br>*1743 - ~1840<br>m. Dorcas Chamberlain<br>~1750 - ] --> B[Ebenezer<br>1771 - 1850]
@@ -61,7 +61,6 @@ graph TD
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
-```
 ````
 
 ## Legend
