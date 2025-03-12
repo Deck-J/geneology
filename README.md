@@ -28,34 +28,35 @@ graph TD;
     L --> M["Peter Decker (~1780-1830)\nSold 31 acres from Penn family grant in 1813"]:::direct;
     M --> N["Land later transferred to Joseph Sharp (1813)"]:::direct;
     M --> O["Additional land purchased from Andrew Willson\nPart of James Barton's original return"]:::direct;
+    
+    M --> P["Peter Decker Jr. (~1800 - ?)\nConverted Deckertown Church to Presbyterianism\nOwned a Tavern, Later Moved West"]:::direct;
 
-    L --> P["Isaac Decker (~1743 - 1840)\nBorn in Sussex Co., NJ\nMarried Dorcas Chamberlain (~1750 - ?)\nLandowner in Deckertown"]:::direct;
-    P --> Q["Isaac Decker (1794-1856)\nMarried Barbara Aubert (1791-1863)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    Q --> R["John Decker (1844 - <1900)\nMarried Isabella Davis (1844 - >1920)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    R --> S["Samuel St. Clair Decker (1865 - 1930)\nMarried Anna Lide Sharp (1866-1946)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    S --> T["Harvey Reed Decker (1890 - 1922)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    S --> U["Frank Vincent Decker (1909 - 1941)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    L --> Q["Isaac Decker (~1743 - 1840)\nBorn in Sussex Co., NJ\nMarried Dorcas Chamberlain (~1750 - ?)\nLandowner in Deckertown"]:::direct;
+    Q --> R["Isaac Decker (1794-1856)\nMarried Barbara Aubert (1791-1863)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    R --> S["John Decker (1844 - <1900)\nMarried Isabella Davis (1844 - >1920)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    S --> T["Samuel St. Clair Decker (1865 - 1930)\nMarried Anna Lide Sharp (1866-1946)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    T --> U["Harvey Reed Decker (1890 - 1922)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    T --> V["Frank Vincent Decker (1909 - 1941)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
 
-    Q --> V["William Chamberlain Decker (1865 - 1896)\nMarried Deborah Henrietta Peer (1870 - 1938)"]:::direct;
-    V --> W["Clifford J. Decker (~1896 - ~1970s)\nMarried Anna Carbaugh (~1891 - ?)"]:::direct;
-    W --> X["Clifford Decker (1915 - ?)\nDied in Gainesville, FL\nMarried Marjorie (~1919 - ?)"]:::direct;
-    X --> Y["Paul Christian Decker (*1950 - ?)"];
-    X --> Z["Clifford John Decker (*1950 - ?)"];
-    X --> AA["Brian Decker (*1950 - 2023)"];
+    Q --> W["William Chamberlain Decker (1865 - 1896)\nMarried Deborah Henrietta Peer (1870 - 1938)"]:::direct;
+    W --> X["Clifford J. Decker (~1896 - ~1970s)\nMarried Anna Carbaugh (~1891 - ?)"]:::direct;
+    X --> Y["Clifford Decker (1915 - ?)\nDied in Gainesville, FL\nMarried Marjorie (~1919 - ?)"]:::direct;
+    Y --> Z["Paul Christian Decker (*1950 - ?)"];
+    Y --> AA["Clifford John Decker (*1950 - ?)"];
+    Y --> AB["Brian Decker (*1950 - 2023)"];
 
-    Y --> AB["John Decker (*1985 - ?)"];
-    Y --> AC["Andrew Decker (*1987 - ?)"];
-    Y --> AD["Scott Decker (*1990 - ?)"];
-    AA --> AE["Stephen Decker (*1982 - ?)"];
-    AA --> AF["Chrissy Decker (*1984 - ?)"];
-    AA --> AG["Margorie Decker (*1986 - ?)"];
-    AA --> AH["Beth Decker (*1989 - ?)"];
-    Y --> AI["Sarah Decker (*1980 - ?)"];
-    Y --> AJ["Christin Decker (*1983 - ?)"];
+    Z --> AC["John Decker (*1985 - ?)"];
+    Z --> AD["Andrew Decker (*1987 - ?)"];
+    Z --> AE["Scott Decker (*1990 - ?)"];
+    AB --> AF["Stephen Decker (*1982 - ?)"];
+    AB --> AG["Chrissy Decker (*1984 - ?)"];
+    AB --> AH["Margorie Decker (*1986 - ?)"];
+    AB --> AI["Beth Decker (*1989 - ?)"];
+    Z --> AJ["Sarah Decker (*1980 - ?)"];
+    Z --> AK["Christin Decker (*1983 - ?)"];
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
-
 ```
 ## **Find a Grave Confirmed Burials**
 Below are **confirmed burials** from Find a Grave for individuals appearing in the genealogy chart:
