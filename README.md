@@ -10,7 +10,7 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
 
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
-raph TD;
+graph TD;
     A["Jan Broerson Decker (~1640 - ?)\nMarried Heiltje Jacobs"]:::root;
     A --> B["Johannis Decker (~1680 - ?)\nMarried Helletje (Holecca) Jacobs"]:::direct;
     B --> C["Petrus (Peter) Decker (~1710-1775)\nBorn in Ulster Co., NY\nSettler of Deckertown, NJ\nMarried Lecentje (Magdalena) Osterhout (~1715 - ?)"]:::direct;
@@ -55,6 +55,7 @@ raph TD;
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
+
 ```
 ## **Find a Grave Confirmed Burials**
 Below are **confirmed burials** from Find a Grave for individuals appearing in the genealogy chart:
