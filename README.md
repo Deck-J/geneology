@@ -10,49 +10,48 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
 
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
-graph TD
-    A["Johannis DecPr>~1680 - ?<br>m. Helletje (Holecca) Jacobs"]:::root
-    A --> B["Petrus (Peter) Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Lecentje (Magdalena) Osterhout (~1715 - ?)"]:::direct
+raph TD;
+    A["Jan Broerson Decker (~1640 - ?)\nMarried Heiltje Jacobs"]:::root;
+    A --> B["Johannis Decker (~1680 - ?)\nMarried Helletje (Holecca) Jacobs"]:::direct;
+    B --> C["Petrus (Peter) Decker (~1710-1775)\nBorn in Ulster Co., NY\nSettler of Deckertown, NJ\nMarried Lecentje (Magdalena) Osterhout (~1715 - ?)"]:::direct;
 
-    B --> C["Yope Decker<br>~1735 - ?<br>Sold family land to Judge Sayre"]:::direct
-    B --> D["Nick (Kick) Decker<br>~1737 - ?<br>Lived and died in Deckertown"]:::direct
-    B --> E["Hannah Decker<br>~1739 - ?"]:::direct
-    B --> F["Maria Decker"]:::direct
-    B --> G["Catherina Decker"]:::direct
-    B --> H["Annetje Decker"]:::direct
-    B --> I["Heerca Decker"]:::direct
+    C --> D["Yope Decker (~1735 - ?)\nSold family land to Judge Sayre"]:::direct;
+    C --> E["Nick (Kick) Decker (~1737 - ?)\nLived and died in Deckertown"]:::direct;
+    C --> F["Hannah Decker (~1739 - ?)"]:::direct;
+    C --> G["Maria Decker"]:::direct;
+    C --> H["Catherina Decker"]:::direct;
+    C --> I["Annetje Decker"]:::direct;
+    C --> J["Heerca Decker"]:::direct;
 
-    C --> J["Samuel Decker<br>~1760 - 1810<br>Owned large portions of Deckertown but lost it after the Revolutionary War"]:::direct
-    C --> K["Abraham Decker<br>~1765 - ?<br>Purchased land from Martin Ryerson"]:::direct
-    C --> L["Josias Decker<br>~1770 - ?<br>Bought land from Joseph Sharp and Martin Ryerson"]:::direct
+    C --> K["Joseph Decker (~1750 - ?)\nFirst Decker to buy land from Christopher Penn (pre-1790)"]:::direct;
+    K --> L["Samuel Decker (~1760 - 1810)\nBought land from Joseph Decker in 1790\nPart of Christopher Penn’s land grant"]:::direct;
+    L --> M["Peter Decker (~1780-1830)\nSold 31 acres from Penn family grant in 1813"]:::direct;
+    M --> N["Land later transferred to Joseph Sharp (1813)"]:::direct;
+    M --> O["Additional land purchased from Andrew Willson\nPart of James Barton's original return"]:::direct;
 
-    J --> M["Bowdewine Decker<br>~1795 - ?<br>Purchased 120-acre parcel in 1827"]:::direct
-    J --> N["Isaac Decker<br>~1743 - 1840<br>b. Sussex Co., NJ<br>m. Dorcas Chamberlain (~1750 - ?)<br>Landowner in Deckertown"]:::direct
+    L --> P["Isaac Decker (~1743 - 1840)\nBorn in Sussex Co., NJ\nMarried Dorcas Chamberlain (~1750 - ?)\nLandowner in Deckertown"]:::direct;
+    P --> Q["Isaac Decker (1794-1856)\nMarried Barbara Aubert (1791-1863)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    Q --> R["John Decker (1844 - <1900)\nMarried Isabella Davis (1844 - >1920)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    R --> S["Samuel St. Clair Decker (1865 - 1930)\nMarried Anna Lide Sharp (1866-1946)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    S --> T["Harvey Reed Decker (1890 - 1922)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    S --> U["Frank Vincent Decker (1909 - 1941)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
 
-    N --> O["Ebenezer Decker<br>28 Jul 1836 - 16 May 1889<br>b. Pennsylvania<br>m. Catherine Marchand Reed (1858)<br>Farmer, Civil War veteran, Company K, 12th Michigan Infantry<br>Buried: Bly Cemetery, Marcellus, MI"]:::direct
-    O --> P["Isaac Decker<br>1794 - 1856<br>m. Barbara Aubert (1791-1863)<br>Buried: Laurel Hill Furnace Cemetery"]:::direct
+    Q --> V["William Chamberlain Decker (1865 - 1896)\nMarried Deborah Henrietta Peer (1870 - 1938)"]:::direct;
+    V --> W["Clifford J. Decker (~1896 - ~1970s)\nMarried Anna Carbaugh (~1891 - ?)"]:::direct;
+    W --> X["Clifford Decker (1915 - ?)\nDied in Gainesville, FL\nMarried Marjorie (~1919 - ?)"]:::direct;
+    X --> Y["Paul Christian Decker (*1950 - ?)"];
+    X --> Z["Clifford John Decker (*1950 - ?)"];
+    X --> AA["Brian Decker (*1950 - 2023)"];
 
-    P --> Q["John Decker<br>1844 - <1900<br>m. Isabella Davis (1844 - >1920)<br>Buried: Laurel Hill Furnace Cemetery"]:::direct
-    Q --> R["Samuel St. Clair Decker<br>1865 - 1930<br>m. Anna Lide Sharp (1866-1946)<br>Buried: Laurel Hill Furnace Cemetery"]:::direct
-    R --> S["Harvey Reed Decker<br>1890 - 1922<br>Buried: Laurel Hill Furnace Cemetery"]:::direct
-    R --> T["Frank Vincent Decker<br>1909 - 1941<br>Buried: Laurel Hill Furnace Cemetery"]:::direct
-
-    P --> U["William Chamberlain Decker<br>1865 - 1896<br>m. Deborah Henrietta Peer (1870 - 1938)"]:::direct
-    U --> V["Clifford J. Decker<br>1896 - ~1970s<br>m. Anna Carbaugh (~1891 - ?)"]:::direct
-    V --> W["Clifford Decker<br>1915 - ?<br>d. Gainesville, FL<br>m. Marjorie (~1919 - ?)"]:::direct
-    W --> X["Paul Christian Decker (*1950 - ?)"]
-    W --> Y["Clifford John Decker (*1950 - ?)"]
-    W --> Z["Brian Decker (*1950 - 2023)"]
-
-    X --> AA["John Decker (*1985 - ?)"]
-    X --> AB["Andrew Decker (*1987 - ?)"]
-    X --> AC["Scott Decker (*1990 - ?)"]
-    Z --> AD["Stephen Decker (*1982 - ?)"]
-    Z --> AE["Chrissy Decker (*1984 - ?)"]
-    Z --> AF["Margorie Decker (*1986 - ?)"]
-    Z --> AG["Beth Decker (*1989 - ?)"]
-    X --> AH["Sarah Decker (*1980 - ?)"]
-    X --> AI["Christin Decker (*1983 - ?)"]
+    Y --> AB["John Decker (*1985 - ?)"];
+    Y --> AC["Andrew Decker (*1987 - ?)"];
+    Y --> AD["Scott Decker (*1990 - ?)"];
+    AA --> AE["Stephen Decker (*1982 - ?)"];
+    AA --> AF["Chrissy Decker (*1984 - ?)"];
+    AA --> AG["Margorie Decker (*1986 - ?)"];
+    AA --> AH["Beth Decker (*1989 - ?)"];
+    Y --> AI["Sarah Decker (*1980 - ?)"];
+    Y --> AJ["Christin Decker (*1983 - ?)"];
 
     classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
     classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
