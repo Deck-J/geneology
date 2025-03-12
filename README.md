@@ -15,6 +15,11 @@ graph TD;
     A --> B["Johannis Decker (~1680 - ?)\nMarried Helletje (Holecca) Jacobs"]:::direct;
     B --> C["Petrus (Peter) Decker (~1710-1775)\nBorn in Ulster Co., NY\nSettler of Deckertown, NJ\nMarried Lecentje (Magdalena) Osterhout (~1715 - ?)"]:::direct;
 
+    C --> K["Joseph Decker (~1750 - ?)\nFirst Decker to buy land from Christopher Penn (pre-1790)"]:::direct;
+    K --> L["Samuel Decker (~1760 - 1810)\nBought land from Joseph Decker in 1790\nPart of Christopher Penn’s land grant\n**Surveyed and built roads in Wantage & Deckertown (1772)**"]:::direct;
+    L --> M["Peter Decker (~1780-1830)\nSold 31 acres from Penn family grant in 1813\n**Worked on early Deckertown infrastructure, road expansions (1791)**"]:::direct;
+    M --> P["Peter Decker Jr. (~1800 - ?)\nConverted Deckertown Church to Presbyterianism\nOwned a Tavern, Later Moved West"]:::direct;
+
     C --> D["Yope Decker (~1735 - ?)\nSold family land to Judge Sayre"]:::direct;
     C --> E["Nick (Kick) Decker (~1737 - ?)\nLived and died in Deckertown"]:::direct;
     C --> F["Hannah Decker (~1739 - ?)"]:::direct;
@@ -22,14 +27,6 @@ graph TD;
     C --> H["Catherina Decker"]:::direct;
     C --> I["Annetje Decker"]:::direct;
     C --> J["Heerca Decker"]:::direct;
-
-    C --> K["Joseph Decker (~1750 - ?)\nFirst Decker to buy land from Christopher Penn (pre-1790)"]:::direct;
-    K --> L["Samuel Decker (~1760 - 1810)\nBought land from Joseph Decker in 1790\nPart of Christopher Penn’s land grant"]:::direct;
-    L --> M["Peter Decker (~1780-1830)\nSold 31 acres from Penn family grant in 1813"]:::direct;
-    M --> N["Land later transferred to Joseph Sharp (1813)"]:::direct;
-    M --> O["Additional land purchased from Andrew Willson\nPart of James Barton's original return"]:::direct;
-    
-    M --> P["Peter Decker Jr. (~1800 - ?)\nConverted Deckertown Church to Presbyterianism\nOwned a Tavern, Later Moved West"]:::direct;
 
     L --> Q["Isaac Decker (~1743 - 1840)\nBorn in Sussex Co., NJ\nMarried Dorcas Chamberlain (~1750 - ?)\nLandowner in Deckertown"]:::direct;
     Q --> R["Isaac Decker (1794-1856)\nMarried Barbara Aubert (1791-1863)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
