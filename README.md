@@ -10,7 +10,7 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
 
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
-Graph TD
+graph TD
     A["Johannis DecPr>~1680 - ?<br>m. Helletje (Holecca) Jacobs"]:::root
     A --> B["Petrus (Peter) Decker<br>~1710-1775<br>b. Ulster Co., NY<br>Settler of Deckertown (now Sussex, NJ)<br>m. Lecentje (Magdalena) Osterhout (~1715 - ?)"]:::direct
 
