@@ -11,49 +11,61 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
 graph TD;
-    A["Jan Broerson Decker (~1640 - ?)\nMarried Heiltje Jacobs"]:::root;
-    A --> B["Johannis Decker (~1680 - ?)\nMarried Helletje (Holecca) Jacobs"]:::direct;
-    B --> C["Petrus (Peter) Decker (~1710-1775)\nBorn in Ulster Co., NY\nSettler of Deckertown, NJ\nMarried Lecentje (Magdalena) Osterhout (~1715 - ?)"]:::direct;
+    %% Earliest Known Ancestor
+    A["John De Decker (c. 1620 - ?)"] -->|Father| B["Jan Broerson Decker (c. 1650 - ?)"]
+    A -.->|"Helped Negotiate New Amsterdam's Acquisition (1664)"| B
 
-    C --> K["Joseph Decker (~1750 - ?)\nFirst Decker to buy land from Christopher Penn (pre-1790)"]:::direct;
-    K --> L["Samuel Decker (~1760 - 1810)\nBought land from Joseph Decker in 1790\nPart of Christopher Penn’s land grant\n**Surveyed and built roads in Wantage & Deckertown (1772)**"]:::direct;
-    L --> M["Peter Decker (~1780-1830)\nSold 31 acres from Penn family grant in 1813\n**Worked on early Deckertown infrastructure, road expansions (1791)**"]:::direct;
-    M --> P["Peter Decker Jr. (~1800 - ?)\nConverted Deckertown Church to Presbyterianism\nOwned a Tavern, Later Moved West"]:::direct;
+    %% Common Ancestor
+    B -->|Father| C["Johannis Decker (c. 1685 - ?)\nBurial: Minisink, Orange Co., NY"]
 
-    C --> D["Yope Decker (~1735 - ?)\nSold family land to Judge Sayre"]:::direct;
-    C --> E["Nick (Kick) Decker (~1737 - ?)\nLived and died in Deckertown"]:::direct;
-    C --> F["Hannah Decker (~1739 - ?)"]:::direct;
-    C --> G["Maria Decker"]:::direct;
-    C --> H["Catherina Decker"]:::direct;
-    C --> I["Annetje Decker"]:::direct;
-    C --> J["Heerca Decker"]:::direct;
+    %% Isaac's Line (Moving to PA)
+    C -->|Father| D["Major John Decker (1712 - 1793)\nBurial: Minisink, Orange Co., NY"]
+    D -->|Father| E["Isaac Decker (1743 - ~1840)\nBurial: New Florence, Westmoreland Co., PA"]
+    E -->|Spouse| E1["Barbara Aubert Decker (1791 - 1863)\nBurial: Laurel Hill Furnace Cemetery, PA"]
+    E -->|Child| E2["Isabel Decker (? - ?)"]
+    E -->|Father| F["Jacob Decker (~1784 - 1835)\nBurial: Conemaugh Twp, Cambria Co., PA"]
+    F -->|Father| G["Daniel Decker (1808 - 1887)\nBurial: St. Clair Twp, Westmoreland Co., PA"]
+    G -->|Father| H["Job Decker (1837 - 1899)\nBurial: St. Clair Twp, Westmoreland Co., PA"]
+    H -->|Spouse| H1["Jane Young Brady Decker (1821 - 1880)\nBurial: Laurel Hill Furnace Cemetery, PA"]
+    H -->|Father| I["Samuel St. Clair Decker (1865 - 1930)\nBurial: Laurel Hill Furnace Cemetery, PA"]
+    I -->|Spouse| I1["Anna Lide Sharp Decker (1866 - 1946)\nBurial: Laurel Hill Furnace Cemetery, PA"]
 
-    L --> Q["Isaac Decker (~1743 - 1840)\nBorn in Sussex Co., NJ\nMarried Dorcas Chamberlain (~1750 - ?)\nLandowner in Deckertown"]:::direct;
-    Q --> R["Isaac Decker (1794-1856)\nMarried Barbara Aubert (1791-1863)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    R --> S["John Decker (1844 - <1900)\nMarried Isabella Davis (1844 - >1920)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    S --> T["Samuel St. Clair Decker (1865 - 1930)\nMarried Anna Lide Sharp (1866-1946)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    T --> U["Harvey Reed Decker (1890 - 1922)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
-    T --> V["Frank Vincent Decker (1909 - 1941)\nBuried in Laurel Hill Furnace Cemetery"]:::direct;
+    %% Children of Samuel St. Clair Decker
+    I -->|Child| I2["Lloyd A. Decker"]
+    I -->|Child| I3["Samuel S. Decker"]
+    I -->|Child| I4["Logan H. Decker"]
+    I -->|Child| I5["A.L. Decker"]
+    I -->|Child| I6["Mrs. Johnstown"]
+    I -->|Child| I7["Mrs. Pitcairn"]
+    I -->|Child| I8["Mrs. New Florence"]
 
-    Q --> W["William Chamberlain Decker (1865 - 1896)\nMarried Deborah Henrietta Peer (1870 - 1938)"]:::direct;
-    W --> X["Clifford J. Decker (~1896 - ~1970s)\nMarried Anna Carbaugh (~1891 - ?)"]:::direct;
-    X --> Y["Clifford Decker (1915 - ?)\nDied in Gainesville, FL\nMarried Marjorie (~1919 - ?)"]:::direct;
-    Y --> Z["Paul Christian Decker (*1950 - ?)"];
-    Y --> AA["Clifford John Decker (*1950 - ?)"];
-    Y --> AB["Brian Decker (*1950 - 2023)"];
+    I -->|Father| J["Clifford J. Decker (1896 - ?)\nBurial: Unknown (Likely Pittsburgh, PA)"]
+    J -->|Father| K["Clifford Decker (1915 - ?, Gainesville, FL)\nBurial: Unknown, Gainesville, FL"]
 
-    Z --> AC["John Decker (*1985 - ?)"];
-    Z --> AD["Andrew Decker (*1987 - ?)"];
-    Z --> AE["Scott Decker (*1990 - ?)"];
-    AB --> AF["Stephen Decker (*1982 - ?)"];
-    AB --> AG["Chrissy Decker (*1984 - ?)"];
-    AB --> AH["Margorie Decker (*1986 - ?)"];
-    AB --> AI["Beth Decker (*1989 - ?)"];
-    Z --> AJ["Sarah Decker (*1980 - ?)"];
-    Z --> AK["Christin Decker (*1983 - ?)"];
+    %% Additional Family Members in Laurel Hill Furnace Cemetery
+    F -->|Child| F1["Isabella Davis Decker (1844 - 1920)\nBurial: Laurel Hill Furnace Cemetery, PA"]
+    F1 -->|Child| F2["Elmer Decker"]
+    I -->|Child| I9["Harvey Reed Decker (1890 - 1922)\nBurial: Laurel Hill Furnace Cemetery, PA"]
 
-    classDef root fill:#4A90E2,stroke:#333,stroke-width:2px,color:#FFF;
-    classDef direct fill:#F39C12,stroke:#333,stroke-width:2px,color:#FFF;
+    %% Nicholas Decker as a Possible Branch from Daniel Decker
+    G -->|Possible Branch| N1["Nicholas Decker (? - ?)\nMentioned in Deckertown Book"]
+
+    %% Peter's Line (Remaining in NJ)
+    C -->|Brother| L["Peter Decker (1711 - ?)\nBurial: Sussex Co., NJ (Likely Clove Cemetery)"]
+    L -->|Father| M["Peter Decker (Landowner, Sussex, NJ)\nBurial: Sussex Co., NJ (Likely Old Clove Cemetery)"]
+    M -->|Father| N["Josiah Decker (1740 - 1814)\nBurial: Clove Cemetery, Sussex Co., NJ"]
+    N -->|Father| O["Bowdewine Decker (1763 - 1853)\nBurial: Old Clove Church Cemetery, Sussex Co., NJ"]
+    O -->|Father| P["Samuel Decker (1790 - ?)\nBurial: Unknown (Possibly Clove Cemetery, NJ)"]
+    P -->|Father| Q["William B. Decker (1825 - 1861)\nBurial: Clove Cemetery, Sussex Co., NJ"]
+    O -->|Daughter| R["Sarah Decker (1806 - 1851)\nBurial: Clove Cemetery, Sussex Co., NJ"]
+    O -->|Father| S["Chester Edward Decker Sr. (1926 - 2023)\nBurial: Clove Cemetery, Sussex Co., NJ"]
+
+    %% Richard Penn Land Purchase Transactions
+    M -.->|"Owned Land Surveyed for Richard Penn"| O
+    P -.->|"Owned Land Previously Linked to Richard Penn"| Q
+    O -.->|"Bowdewine Decker Purchased Land from Samuel Decker (1790)"| P
+    M -.->|"Peter Decker (Landowner) Sold Part of Richard Penn Land to Joseph Sharp (1813)"| N
+    P -.->|"Samuel Decker Sold Land to Bowdewine Decker (1790)"| O
 ```
 ## **Find a Grave Confirmed Burials**
 Below are **confirmed burials** from Find a Grave for individuals appearing in the genealogy chart:
