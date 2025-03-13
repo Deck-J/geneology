@@ -11,15 +11,19 @@ The first confirmed settler in the Decker family line in Deckertown was **Peter 
 ## **Mermaid.js Genealogy Chart**
 ```mermaid
 graph TD;
-    %% Earliest Known Ancestor
-    A["John De Decker (c. 1620 - ?)"] -->|Father| B["Jan Broerson Decker (c. 1650 - ?)"]
-    A -.->|"Helped Negotiate New Amsterdam's Acquisition (1664)"| B
 
-    %% Common Ancestor
-    B -->|Father| C["Johannis Decker (c. 1685 - ?)\nBurial: Minisink, Orange Co., NY"]
+    %% Earliest Known Ancestor
+    A["Johannes De Decker (c. 1620 - ?)\n⚔ Helped Negotiate New Amsterdam's Surrender (1664)"] -->|Father| B["Jan Broerson Decker (c. 1650 - ?)"]
+
+    %% Common Ancestor - Marked Clearly
+    B -->|Father| C["⭐ COMMON ANCESTOR: Johannis Decker (c. 1685 - ?)\nBurial: Minisink, Orange Co., NY ⭐"]
+
+    %% Potential Link Identified
+    C -->|Possible Father| C1["Pieter De Decker (c. 1665 - ?)\nSon of Johannes, Staten Island Settler"]
+    C1 -->|Father| C2["⭐ COMMON ANCESTOR ⭐"]
 
     %% Isaac's Line (Moving to PA)
-    C -->|Father| D["Major John Decker (1712 - 1793)\nBurial: Minisink, Orange Co., NY"]
+    C2 -->|Father| D["Major John Decker (1712 - 1793)\nBurial: Minisink, Orange Co., NY"]
     D -->|Father| E["Isaac Decker (1743 - ~1840)\nBurial: New Florence, Westmoreland Co., PA"]
     E -->|Spouse| E1["Barbara Aubert Decker (1791 - 1863)\nBurial: Laurel Hill Furnace Cemetery, PA"]
     E -->|Child| E2["Isabel Decker (? - ?)"]
@@ -51,7 +55,7 @@ graph TD;
     G -->|Possible Branch| N1["Nicholas Decker (? - ?)\nMentioned in Deckertown Book"]
 
     %% Peter's Line (Remaining in NJ)
-    C -->|Brother| L["Peter Decker (1711 - ?)\nBurial: Sussex Co., NJ (Likely Clove Cemetery)"]
+    C2 -->|Brother| L["Peter Decker (1711 - ?)\nBurial: Sussex Co., NJ (Likely Clove Cemetery)"]
     L -->|Father| M["Peter Decker (Landowner, Sussex, NJ)\nBurial: Sussex Co., NJ (Likely Old Clove Cemetery)"]
     M -->|Father| N["Josiah Decker (1740 - 1814)\nBurial: Clove Cemetery, Sussex Co., NJ"]
     N -->|Father| O["Bowdewine Decker (1763 - 1853)\nBurial: Old Clove Church Cemetery, Sussex Co., NJ"]
