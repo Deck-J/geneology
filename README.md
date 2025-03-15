@@ -1,6 +1,6 @@
-# The Decker Family Legacy: From Holland to America
 
-## A Comprehensive Genealogical and Historical Report
+
+## Decker Family Summary
 
 ## Table of Contents
 - [Executive Summary](#executive-summary)
