@@ -1,37 +1,34 @@
-name: Publish README to GitHub Pages
+name: Convert README to GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # Adjust this to your default branch name
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v3
 
+      # Install a markdown converter (using pandoc in this example)
       - name: Install Pandoc
         run: sudo apt-get install -y pandoc
 
-      - name: Convert README.md to index.html
-        run: pandoc README.md -o index.html --metadata title="Project Documentation"
-
-      - name: Checkout gh-pages branch
+      # Convert README.md to index.html
+      - name: Convert README to HTML
         run: |
-          git fetch origin gh-pages || git checkout --orphan gh-pages
-          git checkout gh-pages
+          pandoc README.md -f markdown -t html -s -o index.html \
+          --metadata pagetitle="My Project" \
+          --css https://cdn.jsdelivr.net/npm/water.css@2/out/water.css
 
-      - name: Remove old index.html (if exists)
-        run: rm -f index.html
-
-      - name: Move new index.html to gh-pages branch
-        run: mv ../index.html .
-
-      - name: Commit and Push Changes
-        run: |
-          git add index.html
-          git commit -m "Update index.html with latest README" || echo "No changes to commit"
-          git push origin gh-pages
+      # Deploy to gh-pages branch
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          force_orphan: true
+          include_assets: index.html
