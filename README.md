@@ -66,7 +66,7 @@ Daniel lived and died in St. Clair Township, Westmoreland County, PA, firmly est
 
 Job Decker (1837-1899) continued the line, fathering Samuel St. Clair Decker (1865-1930), who married Anna Lide Sharpe (1866-1946). Samuel and Anna had a son named Clifford J. Decker (1896-), who lived in Pittsburgh, PA and married Anna Carbaugh (~1891-).
 
-Clifford J. Decker and Anna had a son named Clifford Decker (1915-), who married Marjorie (~1919-) and had two sons (b. ~1950). Clifford died in Gainesville, FL, representing the family's geographic expansion to Florida in the mid-20th century.
+Clifford J. Decker and Anna had a son named Clifford Decker (1915-), who married Marjorie (~1919-) and had three sons (b. ~1950). Clifford died in Gainesville, FL, representing the family's geographic expansion to Florida in the mid-20th century.
 
 ### Peter's Line (Remaining in New Jersey)
 
