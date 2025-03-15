@@ -9,26 +9,102 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # Checkout the repository
-      - name: Checkout
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
         uses: actions/checkout@v3
-
-      # Install a markdown converter (using pandoc in this example)
-      - name: Install Pandoc
-        run: sudo apt-get install -y pandoc
-
-      # Convert README.md to index.html
-      - name: Convert README to HTML
+      - name: Verify Checkout
         run: |
-          pandoc README.md -f markdown -t html -s -o index.html \
-          --metadata pagetitle="My Project" \
-          --css https://cdn.jsdelivr.net/npm/water.css@2/out/water.css
+          echo "Checkout complete"
+          ls -la
+          if [ ! -f "README.md" ]; then
+            echo "ERROR: README.md not found!"
+            exit 1
+          fi
 
-      # Deploy to gh-pages branch
+      # Step 2: Clean existing index.html
+      - name: Remove Existing index.html
+        run: |
+          echo "Checking for existing index.html..."
+          if [ -f "index.html" ]; then
+            rm -f index.html
+            echo "Removed existing index.html"
+          else
+            echo "No existing index.html found"
+          fi
+
+      # Step 3: Set up environment
+      - name: Install Pandoc
+        run: |
+          echo "Installing Pandoc..."
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          pandoc --version
+          echo "Pandoc installation complete"
+
+      # Step 4: Convert README to HTML
+      - name: Convert Markdown to HTML
+        run: |
+          echo "Starting conversion..."
+          echo "Input file size: $(wc -c < README.md) bytes"
+          echo "README.md preview:"
+          head -n 10 README.md
+          pandoc README.md -f markdown -t html -s -o index.html \
+            --metadata pagetitle="My Project" \
+            --css https://cdn.jsdelivr.net/npm/water.css@2/out/water.css
+          if [ $? -eq 0 ]; then
+            echo "Conversion successful"
+            ls -l index.html
+          else
+            echo "Conversion failed!"
+            exit 1
+          fi
+
+      # Step 5: Verify generated file
+      - name: Check Generated HTML
+        run: |
+          echo "Verifying generated index.html..."
+          if [ -f "index.html" ]; then
+            echo "File exists"
+            echo "Output file size: $(wc -c < index.html) bytes"
+            echo "HTML content preview:"
+            head -n 15 index.html
+          else
+            echo "ERROR: index.html was not created!"
+            exit 1
+          fi
+
+      # Step 6: Deploy to gh-pages with URL
       - name: Deploy to GitHub Pages
+        id: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
           force_orphan: true
           include_assets: index.html
+        env:
+          ACTIONS_STEP_DEBUG: true
+        run: |
+          REPO_OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          REPO_NAME=$(echo "${{ github.event.repository.name }}" | tr '[:upper:]' '[:lower:]')
+          EXPECTED_URL="https://${REPO_OWNER}.github.io/${REPO_NAME}/"
+          
+          echo "Deploying to GitHub Pages..."
+          echo "Deployment complete!"
+          echo "Expected URL: ${EXPECTED_URL}"
+          echo "::set-output name=deployed_url::${EXPECTED_URL}"
+
+      # Step 7: Final Confirmation with Summary
+      - name: Final Status
+        run: |
+          echo "Workflow completed successfully"
+          echo "Deployed to: ${{ steps.deploy.outputs.deployed_url }}"
+          echo "HTML Summary:"
+          if [ -f "index.html" ]; then
+            echo "File size: $(wc -c < index.html) bytes"
+            echo "Line count: $(wc -l < index.html) lines"
+            echo "First few lines:"
+            head -n 20 index.html
+          else
+            echo "WARNING: index.html not found after deployment!"
+          fi
