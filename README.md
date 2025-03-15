@@ -368,3 +368,176 @@ Below are **confirmed burials** from Find a Grave for individuals appearing in t
 - **[Frank Vincent Decker (1909-1941)](https://www.findagrave.com/memorial/125484972/frank-vincent-decker)**  
   - **Burial**: Laurel Hill Furnace Cemetery, Saint Clair Township, Westmoreland County, Pennsylvania, USA
 
+
+# Decker Family Grave locations - A work in progress
+
+## Laurel Hill Furnace Cemetery (Westmoreland County, PA)
+
+### John Decker Hull (1834-1866)
+- **Parents**: 
+  - Tobias Sechler Hull Sr (1803-1887)
+  - Sarah Decker Hull (1815-1844)
+- **Spouse**: Sarah Jane Hair Hull (1839-1860)
+- **Siblings**: Tobias Seckler Hull Jr (1825-1892)
+- **Children**: George Hull (1860-1860)
+
+### Samuel St. Clair Decker (1865-1930)
+- **Occupation**: Wood chopper (per 1900 census)
+- **Spouse**: Annie L. (b. Feb 1868)
+- **Children**:
+  - May M. (b. May 1887)
+  - Reed (b. Feb 1890)
+  - Zora (b. Dec 1891)
+  - Jane (b. Sep 1893)
+  - Clifford (b. Nov 1895)
+  - Albert (b. Oct 1897)
+  - Samuel S. (b. Feb 1900)
+- **Census Records**:
+  - 1900: Westmoreland Co. St. Clair Twp, dwelling 48, family 50
+  - 1910: Westmoreland Co. St. Clair Twp, Laurel Hill Road, dwelling 106, family 117
+-  **Additional Photo** 
+  - Death Certificate https://www.findagrave.com/memorial/125481647/samuel-st._clair-decker/photo
+
+## Clove Cemetery (Sussex County, NJ)
+
+### William B. Decker (1825-1861)
+- **Spouse**: Maria A. Decker (1829-1891)
+- **Children**:
+  - William R. Decker (1853-1936)
+  - John B. Decker Jr (1861-1861)
+
+### Josiah Decker (1740-1814)
+- **Family relationships not listed**
+
+### Sarah Decker Decker (1806-1851)
+- **Family relationships not listed**
+
+### William R. Decker (1853-1936)
+- **Parents**: William B. Decker (1825-1861) and Maria A. Decker (1829-1891)
+
+### Charity M. Kilpatrick Decker (d. 1868)
+- **Family relationships not listed**
+
+### Mary Louesa DeWitt Decker (1836-1912)
+- **Family relationships not listed**
+
+## Old Clove Church Cemetery (Wantage, NJ)
+
+### Unknown Decker
+- **Family relationships not listed**
+
+### William Decker (1776-1851)
+- **Family relationships not listed**
+
+## Notes
+- This document captures the family relationships as listed on the Find A Grave memorial pages
+- Some memorial pages do not list family relationships
+- The Decker name appears in multiple family lines, suggesting intermarriage between Decker families
+- Sarah Decker Hull is a connection point between the Hull and Decker families
+
+# Updated Decker Family Relationships
+
+## Laurel Hill Furnace Cemetery (Westmoreland County, PA)
+
+### John Decker Hull (1834-1866)
+- **Parents**: 
+  - Tobias Sechler Hull Sr (1803-1887)
+  - Sarah Decker Hull (1815-1844)
+- **Spouse**: Sarah Jane Hair Hull (1839-1860)
+- **Siblings**: Tobias Seckler Hull Jr (1825-1892)
+- **Children**: George Hull (1860-1860)
+
+### Samuel St. Clair Decker (1865-1930)
+- **Occupation**: Wood chopper (per 1900 census)
+- **Spouse**: Anna Lide Sharp Decker (1866-1946)
+  - Born: 22 Feb 1866, New Florence, PA
+  - Died: 4 Feb 1946 (aged 79), Shelocta, Indiana County, PA
+  - Parents: William T. and Mary Ann (Slick) Sharp
+- **Children**:
+  - Harvey Reed Decker (1890-1922)
+  - May M. (b. May 1887)
+  - Lloyd A. (mentioned in Anna's obituary)
+  - Samuel S. Jr. (mentioned in Anna's obituary, lived in Pitcairn)
+  - Logan H. (mentioned in Anna's obituary, lived in New Florence)
+  - A.L. Decker (mentioned in Anna's obituary)
+  - Zora Decker Boyer (mentioned in Anna's obituary)
+  - Jane Decker (mentioned in Anna's obituary)
+- **Census Records**:
+  - 1900: Westmoreland Co. St. Clair Twp, dwelling 48, family 50
+  - 1910: Westmoreland Co. St. Clair Twp, Laurel Hill Road, dwelling 106, family 117
+
+### Anna Lide Sharp Decker (1866-1946)
+- **Birth**: 22 Feb 1866, New Florence, Westmoreland County, PA
+- **Death**: 4 Feb 1946 (aged 79), Shelocta, Indiana County, PA
+- **Parents**: William T. and Mary Ann (Slick) Sharp
+- **Spouse**: Samuel St. Clair Decker (1865-1930)
+- **Children**: Six children (as listed under Samuel St. Clair Decker)
+- **Other Information**: 
+  - Member of the Methodist Church
+  - Lived in McKeesport before returning to New Florence
+  - Moved to Shelocta seven years before her death
+  - Had 16 grandchildren and 6 great-grandchildren at time of death
+  - Had a sister named Elizabeth who lived in New York
+
+### Harvey Reed Decker (1890-1922)
+- **Birth**: 9 Feb 1890, New Florence, PA
+- **Death**: 9 Jul 1922 (aged 32), New Florence, Westmoreland County, PA
+- **Parents**: Samuel St. Clair Decker and Anna Lide Sharp Decker (inferred)
+- **Spouse**: Tabitha V. McNeilly
+  - Born: Jun 1, in Seward
+  - Appears on same headstone (1900-1922)
+- **Occupation**: Brakeman for R.R. Co.
+- **Other Information**:
+  - Marriage license #39682 in Westmoreland County
+  - Residence at time of marriage: Pitcairn, PA
+  - No previous marriages noted
+
+### Frank Vincent Decker (1909-1941)
+- **Birth**: 10 Jun 1909, New Florence, Westmoreland County, PA
+- **Death**: 29 Jul 1941 (aged 32), Shelocta, Indiana County, PA
+- **Occupation**: Teacher at Shelocta Borough School for 8 years
+- **Cause of Death**: Heart condition
+- **Other Information**:
+  - Died at his home, Indiana, R.D. 3
+  - Death certificate #65407
+  - Relationship to other Deckers not explicitly stated, but likely related to Samuel and Anna Decker family based on locations (New Florence, Shelocta)
+
+## Clove Cemetery (Sussex County, NJ)
+
+### William B. Decker (1825-1861)
+- **Spouse**: Maria A. Decker (1829-1891)
+- **Children**:
+  - William R. Decker (1853-1936)
+  - John B. Decker Jr (1861-1861)
+
+### Josiah Decker (1740-1814)
+- **Family relationships not listed**
+
+### Sarah Decker Decker (1806-1851)
+- **Family relationships not listed**
+
+### William R. Decker (1853-1936)
+- **Parents**: William B. Decker (1825-1861) and Maria A. Decker (1829-1891)
+
+### Charity M. Kilpatrick Decker (d. 1868)
+- **Family relationships not listed**
+
+### Mary Louesa DeWitt Decker (1836-1912)
+- **Family relationships not listed**
+
+## Old Clove Church Cemetery (Wantage, NJ)
+
+### Unknown Decker
+- **Family relationships not listed**
+
+### William Decker (1776-1851)
+- **Family relationships not listed**
+
+## Notes
+- This updated document includes the three previously missed Decker graves at Laurel Hill Furnace Cemetery
+- Anna Lide Sharp Decker was Samuel St. Clair Decker's wife, previously only identified as "Annie L."
+- Harvey Reed Decker was Samuel and Anna's son, previously only identified as "Reed"
+- Frank Vincent Decker's exact relationship to the other Deckers is not explicitly stated in his memorial, but the locations (New Florence, Shelocta) suggest he may be related to the Samuel and Anna Decker family
+- Based on Anna's obituary, we now have names for all of Samuel and Anna's six surviving children as of 1946
+- The Decker name appears in multiple family lines, suggesting intermarriage between Decker families
+- Sarah Decker Hull is a connection point between the Hull and Decker families
