@@ -5,18 +5,13 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: Install Pandoc
         run: sudo apt-get install -y pandoc
@@ -24,17 +19,19 @@ jobs:
       - name: Convert README.md to index.html
         run: pandoc README.md -o index.html --metadata title="Project Documentation"
 
-      - name: Setup GitHub Pages branch
+      - name: Checkout gh-pages branch
         run: |
           git fetch origin gh-pages || git checkout --orphan gh-pages
           git checkout gh-pages
-          rm -f index.html
 
-      - name: Move and Push Changes
+      - name: Remove old index.html (if exists)
+        run: rm -f index.html
+
+      - name: Move new index.html to gh-pages branch
+        run: mv ../index.html .
+
+      - name: Commit and Push Changes
         run: |
-          mv ../index.html .
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
           git add index.html
           git commit -m "Update index.html with latest README" || echo "No changes to commit"
           git push origin gh-pages
