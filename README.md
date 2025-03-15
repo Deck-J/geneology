@@ -368,7 +368,8 @@ Below are **confirmed burials** from Find a Grave for individuals appearing in t
 - **[Frank Vincent Decker (1909-1941)](https://www.findagrave.com/memorial/125484972/frank-vincent-decker)**  
   - **Burial**: Laurel Hill Furnace Cemetery, Saint Clair Township, Westmoreland County, Pennsylvania, USA
 
-
+- **[Logan Decker-Decker Historian? https://www.findagrave.com/memorial/81615894/logan-h.-decker
+  
 # Decker Family Grave locations - A work in progress
 
 ## Laurel Hill Furnace Cemetery (Westmoreland County, PA)
