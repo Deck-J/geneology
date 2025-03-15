@@ -23,7 +23,8 @@ jobs:
 
       - name: Convert README.md to index.html with Mermaid support
         run: |
-          pandoc README.md -o index.html --metadata title="Project Documentation" \
+          pandoc README.md -o index.html \
+          --metadata title="Project Documentation" \
           --standalone \
           -V header-includes='<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script><script>mermaid.initialize({startOnLoad: true});</script>'
 
