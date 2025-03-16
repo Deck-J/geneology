@@ -241,36 +241,39 @@ The detailed genealogical information now available provides a comprehensive und
 ```mermaid
 flowchart TD
     %% European Origins
-    JohannesDeDecker["Johannes De Decker (c. 1620)\nHelped negotiate New Amsterdam's surrender (1664)"] --> JanBroerson["Jan Broerson Decker (c. 1650)"]
-    
+    JohannesDeDecker["Johannes De Decker (c. 1620)\nHelped negotiate New Amsterdam's surrender (1664)\nSettled on Staten Island (present-day Decker Family Farm of Richmond Hill)\nOccupation: Commissary\nArrived on English ship Black Eagle"] --o JanBroerson["Jan Broerson Decker (c. 1650)\nBorn: Germany\nBuried: Old Dutch Church, Kingston, NY"]
+    note left of JohannesDeDecker
+      Note: The relationship between Johannes De Decker and Jan Broerson Decker is uncertain and may not be as depicted.
+    end
+
     %% Early American Generations
     JanGerritse["Jan Gerritse Decker (c. 1640 - 1709)\nBorn in Holland, settled in Kingston, NY"] --> HendrickJansen["Hendrick Jansen Decker (c. 1667)\nMarried Antje Geertje Quick"]
-    
+
     GerrettJanse["Gerrett Janse Decker (1664)"] -- "Parents" --> JanGerritse2["Jan Gerritse Decker (1688 - ?)\nBorn Kingston, NY, died Romney, WV"]
     MargarietGrietjen["Margariet Grietjen Decker (c. 1664)"] -- "Parents" --> JanGerritse2
-    
+
     %% Common Ancestor
     JanBroerson --> Johannis["Johannis Decker (c. 1685)\nCommon Ancestor\nBuried in Minisink, Orange Co., NY"]
-    
+
     %% Three Main Branches
     Johannis --> MajorJohn["Major John Decker (1712 - 1793)\nBuried in Minisink, Orange Co., NY"]
     Johannis --> PeterNJ["Peter Decker (1711 - ?)\nBuried in Sussex Co., NJ"]
     Johannis --> TobiasLine["Tobias Decker (? - 1759)\nKilled in Indian attack"]
-    
+
     %% Isaac's Line (Pennsylvania Branch)
     MajorJohn --> Isaac["Isaac Decker (1743 - ~1840)"]
     Isaac -- "Spouse" --> Dorcas["Dorcas Chamberlain (~1750)"]
-    
+
     Isaac --> Christopher["Christopher Decker (~1780)\nBorn in Cumberland Co., PA"]
     Isaac --> Daniel1787["Daniel Decker (~1787 - 1840)\nBorn in Sussex Co., NJ\nDied in Westmoreland Co., PA"]
-    
+
     %% Jacob's Line
     Isaac --> Jacob["Jacob Decker (~1784 - 1835)"]
     Jacob -- "Spouse" --> ElizabethIrwin["Elizabeth Irwin (~1785)"]
-    
+
     Jacob --> Daniel1808["Daniel Decker (1808 - 1887)\nDied in St. Clair Twp, Westmoreland Co., PA"]
     Daniel1808 -- "Spouse" --> SaraMartin["Sara Martin (~1813 - 1885)"]
-    
+
     Daniel1808 --> CharlesMartin["Charles Martin Decker (1835 - 1871)"]
     Daniel1808 --> Job["Job Decker (1837 - 1899)"]
     Daniel1808 --> Martin["Martin Decker (1841 - 1887)"]
@@ -278,23 +281,23 @@ flowchart TD
     Daniel1808 --> WilliamA["William A. Decker (~1843)"]
     Daniel1808 --> John1844["John Decker (1844 - <1900)"]
     Daniel1808 --> Chamberlin["Chamberlin Decker (1846)"]
-    
+
     Job --> SamuelStClair["Samuel St. Clair Decker (1865 - 1930)"]
     SamuelStClair -- "Spouse" --> AnnaLide["Anna Lide Sharpe (1866 - 1946)"]
-    
+
     SamuelStClair --> CliffordJ["Clifford J. Decker (1896)\nLived in Pittsburgh"]
     CliffordJ -- "Spouse" --> AnnaCarbaugh["Anna Carbaugh (~1891)"]
-    
+
     CliffordJ --> Clifford["Clifford Decker (1915)\nDied in Gainesville, FL"]
     Clifford -- "Spouse" --> Marjorie["Marjorie (~1919)"]
-    
+
     Clifford --> Son1["One Son (~1950)"]
     Clifford --> Son2["Two Son (~1950)"]
-    
+
     %% Peter's Line (New Jersey Branch)
     PeterNJ --> PeterLandowner["Peter Decker (Landowner)\nFounder of Deckertown"]
     PeterLandowner -- "Spouse" --> Magdalena["Magdalena Isterbout"]
-    
+
     PeterLandowner --> Samuel["Samuel Decker"]
     PeterLandowner --> Pope["Pope Decker"]
     PeterLandowner --> Hick["Hick Decker"]
@@ -303,16 +306,16 @@ flowchart TD
     PeterLandowner --> Catherina["Catherina Decker"]
     PeterLandowner --> Annetje["Annetje Decker"]
     PeterLandowner --> Rebecca["Rebecca Decker"]
-    
+
     PeterNJ --> Josiah["Josiah Decker (1740 - 1814)\nBuried in Clove Cemetery, Sussex Co., NJ"]
     Josiah --> Bowdewine["Bowdewine Decker (1763 - 1853)\nBuried in Old Clove Church Cemetery"]
     Bowdewine --> Samuel1790["Samuel Decker (1790 - ?)\nPossibly buried in Clove Cemetery, NJ"]
     Samuel1790 --> WilliamB["William B. Decker (1825 - 1861)\nBuried in Clove Cemetery, Sussex Co., NJ"]
-    
+
     %% Tobias Line (West Virginia Branch)
     TobiasLine -- "Brothers" --> GarrettDecker["Garrett Decker"]
     TobiasLine -- "Brothers" --> JohnDecker["John Decker"]
-    
+
     %% Style nodes with more readable colors
     classDef commonAncestor fill:#e6f7ff,stroke:#0066cc,stroke-width:2px,color:#003366
     classDef founder fill:#e6ffe6,stroke:#006600,stroke-width:2px,color:#003300
@@ -321,7 +324,7 @@ flowchart TD
     classDef newJerseyBranch fill:#ffe6e6,stroke:#cc0066,stroke-width:1px,color:#660033
     classDef westVirginiaBranch fill:#e6ffff,stroke:#00cccc,stroke-width:1px,color:#006666
     classDef default fill:#f9f9f9,stroke:#666666,stroke-width:1px,color:#333333
-    
+
     class Johannis commonAncestor
     class PeterLandowner founder
     class MajorJohn,PeterNJ,TobiasLine mainBranch
